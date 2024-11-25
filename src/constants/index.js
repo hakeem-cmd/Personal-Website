@@ -13,9 +13,6 @@ import {
     tableau,
     bell,
     bsg,
-    carrent,
-    jobit,
-    tripguide,
     excel,
     python,
     gcp,
@@ -40,8 +37,20 @@ import {
     },
     {
       id: "contact",
-      title: "Contact",
+      title: "Contact Me",
     },
+    {
+      id: "resume",
+      title: "Resume",
+      resumes:[
+        {
+          title: "Data Science Resume", href: "/src/assets/Akeem_Bello_Resume.pdf"
+        },
+        {
+          title: "Software Engineering Resume", href: "/src/assets/Resume_AkeemBello.pdf"
+        }
+      ]
+    }
   ];
   
   const services = [
