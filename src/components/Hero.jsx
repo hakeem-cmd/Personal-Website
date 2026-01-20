@@ -43,7 +43,7 @@ const Hero = () => {
   return (
     <section className={`relative w-full h-screen mx-auto`}>
       {/* Background Image */}
-      <div 
+      <div
         className="absolute inset-0 z-0"
         style={{
           backgroundImage: `url(${backgroundImages[currentBgIndex]})`,
