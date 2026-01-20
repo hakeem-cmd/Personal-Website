@@ -23,7 +23,9 @@ import {
     olympicproject,
     ai_usage,
     connectfour,
-    ecommerce
+    ecommerce,
+    aon,
+    tdBank
   } from "../assets";
   
   export const navLinks = [
@@ -125,15 +127,37 @@ import {
   
   const experiences = [
     {
-      title: "Production Engineer",
-      company_name: "BSG",
-      icon: bsg,
+      title: "Data Analyst",
+      company_name: "TD Bank",
+      icon: tdBank,
       iconBg: "#383E56",
-      date: "Jul 2020 - Aug 2022",
+      date: "Sep 2025 - Present",
+      points: [],
+    },
+    {
+      title: "Data Engineer / Analyst",
+      company_name: "AON Canada",
+      icon: aon,
+      iconBg: "#383E56",
+      date: "Jan 2025 - Aug 2025",
       points: [
-        "Pioneered quality assurance initiatives in production processes, implementing industrial solutions that reduced defects by 25" + "%" + " and substantially improved overall product quality.",
-        "Led a cross-functional team to drive a 40% increase in production during the Covid-19 pandemic, effectively addressing supply chain disruptions and ensuring continuous operation",
-        "Optimized inventory management through the implementation of Microsoft Dynamics AX, enhancing inventory tracking accuracy by 30% and minimizing stock discrepancies",
+        "Developed automated web scraping pipelines using Selenium to extract and consolidate high-volume data, reducing manual data collection time by 60% and ensuring seamless ingestion into centralized databases in Databricks.",
+        "Optimized large-scale data processing in Databricks, designing and scheduling ETL workflows that enhanced data transformation efficiency by 40% and maintained 99% uptime for real-time analytics.",
+        "Created and automated Power BI reporting pipelines, integrating dynamic data updates that reduced report generation time by 75% and significantly improved decision-making across key business functions.",
+        "Led the integration of advanced machine learning models into underwriting processes, resulting in a 20% increase in risk assessment accuracy and contributing to more competitive and profitable insurance offerings.",
+      ],
+    },
+    {
+      title: "AI and Data Engineer",
+      company_name: "Bell Canada",
+      icon: bell,
+      iconBg: "#383E56",
+      date: "May 2023 - Aug 2024",
+      points: [
+        "Spearheaded the development of a real-time AI usage visualization dashboard in MicroStrategy, designing and implementing data pipelines from GCP to MicroStrategy, resulting in a 30% increase in decision-making speed and delivering actionable insights to over 200 stakeholders",
+        "Developed and integrated machine learning models into real-time data pipelines, improving prediction accuracy by 20%, and implemented in production to support 5 key business operations",
+        "Designed and implemented a scalable star schema data structure, optimizing SQL query performance by 30% and enabling the system to handle a 50% growth in data metrics.",
+        "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
     {
@@ -150,16 +174,15 @@ import {
       ],
     },
     {
-      title: "AI and Data Engineer",
-      company_name: "Bell Canada",
-      icon: bell,
+      title: "Production Engineer",
+      company_name: "BSG",
+      icon: bsg,
       iconBg: "#383E56",
-      date: "May 2023 - Aug 2024",
+      date: "Jul 2020 - Aug 2022",
       points: [
-        "Spearheaded the development of a real-time AI usage visualization dashboard in MicroStrategy, designing and implementing data pipelines from GCP to MicroStrategy, resulting in a 30% increase in decision-making speed and delivering actionable insights to over 200 stakeholders",
-        "Developed and integrated machine learning models into real-time data pipelines, improving prediction accuracy by 20%, and implemented in production to support 5 key business operations",
-        "Designed and implemented a scalable star schema data structure, optimizing SQL query performance by 30% and enabling the system to handle a 50% growth in data metrics.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Pioneered quality assurance initiatives in production processes, implementing industrial solutions that reduced defects by 25" + "%" + " and substantially improved overall product quality.",
+        "Led a cross-functional team to drive a 40% increase in production during the Covid-19 pandemic, effectively addressing supply chain disruptions and ensuring continuous operation",
+        "Optimized inventory management through the implementation of Microsoft Dynamics AX, enhancing inventory tracking accuracy by 30% and minimizing stock discrepancies",
       ],
     },
   ];

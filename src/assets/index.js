@@ -26,7 +26,9 @@ import shopify from "./company/shopify.png";
 import bell from "./company/bell.png";
 import tesla from "./company/tesla.png";
 import guelph from "./company/guelph.png";
-import bsg from "./company/bsg.png"
+import bsg from "./company/bsg.png";
+import aon from "./company/AON.png";
+import tdBank from "./company/TD-Bank-Logo-1.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -37,6 +39,16 @@ import ecommerce from "./ecommerce.png"
 import olympicproject from "./olympicproject.png"
 import ai_usage from "./ai_usage.png"
 import connectfour from "./connectfour.png"
+
+import herobg from "./herobg.png";
+import herobg1 from "./herobg1.png";
+import herobg2 from "./herobg2.png";
+import herobg3 from "./herobg3.png";
+import herobg4 from "./herobg4.png";
+import herobg5 from "./herobg5.png";
+import herobg6 from "./herobg6.png";
+import herobg7 from "./herobg7.png";
+import herobg8 from "./herobg8.png";
 
 
 
@@ -68,6 +80,8 @@ export {
   guelph,
   bsg,
   tesla,
+  aon,
+  tdBank,
   carrent,
   jobit,
   tripguide,
@@ -77,4 +91,13 @@ export {
   olympicproject,
   ai_usage,
   connectfour,
+  herobg,
+  herobg1,
+  herobg2,
+  herobg3,
+  herobg4,
+  herobg5,
+  herobg6,
+  herobg7,
+  herobg8,
 };
